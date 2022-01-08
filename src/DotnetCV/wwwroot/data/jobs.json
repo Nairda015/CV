@@ -1,0 +1,26 @@
+[
+  {
+    "from": "2019-09-01",
+    "to": null,
+    "description": "Creating plugins (ribbon) for Autodesk Revit and integrating it with the central database for company workflow standardization.\nManaging Rest and GraphQL solutions with the use of Entity Framework Core, PostgreSQL.",
+    "company": "Warbud",
+    "position": ".Net Developer",
+    "isCurrent": true
+  },
+  {
+    "from": "2019-05-01",
+    "to": null,
+    "description": null,
+    "company": "Warbud",
+    "position": "Trainee",
+    "isCurrent": false
+  },
+  {
+    "from": "2018-05-01",
+    "to": null,
+    "description": null,
+    "company": "BPBO Budopol SA",
+    "position": "Trainee",
+    "isCurrent": false
+  }
+]
