@@ -1,6 +1,13 @@
 <div id="skills">
     <h5>Skills</h5>
-    <p>.Net</p>
-    <p>C#</p>
-    <p>SQL</p>
+    @if (_isLoaded)
+    {
+        @foreach (var skill in _skills)
+        {
+            <div class="row skill">
+                <div class="col-lg-7">@skill.Name</div>
+                <div class="col-lg-5">@skill.Level</div>
+            </div>
+        }
+    }
 </div>

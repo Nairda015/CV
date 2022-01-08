@@ -1,5 +1,9 @@
 <div class="personalInformation">
-    <h2>Adrian Franczak</h2>
-    <h3>.Net developer</h3>
-    <h3>franczakadrian@gmail.com</h3>
+    @if (_isLoaded)
+    {
+        <h2>@_me.FirstName @_me.LastName</h2>
+        <h3>@_me.Position</h3>
+        <h4>@_me.Phone</h4>
+        <h4>@_me.Email</h4>
+    }
 </div>
