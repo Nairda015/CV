@@ -10,7 +10,7 @@ main[b-xu8pbo8ejq] {
 }
 
 .sidebar[b-xu8pbo8ejq] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-image: var(--backgroundGradient);
 }
 
 .top-row[b-xu8pbo8ejq] {
@@ -142,4 +142,21 @@ main[b-xu8pbo8ejq] {
         /* Never collapse the sidebar for wide screens */
         display: block;
     }
+}
+/* /Shared/SidebarFooter.razor.rz.scp.css */
+
+.footerLink[b-waa9hl74po] {
+    display: flex;
+    position: sticky;
+    top: 2000px;
+}
+
+.link[b-waa9hl74po]
+{
+    background-color: var(--richBlack);
+    text-align: center;
+    color: var(--babyPowder);
+    text-decoration: none;
+    width: 100%;
+    padding: 4px;
 }

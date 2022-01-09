@@ -1,10 +1,26 @@
 [
   {
     "name": ".Net C#",
-    "level": "Expert"
+    "level": "Regular"
   },
   {
     "name": "SQL/EntityFramework",
     "level": "Regular"
+  },
+  {
+    "name": "Rest/GQL",
+    "level": "Regular"
+  },
+  {
+    "name": "Docker",
+    "level": "Beginer"
+  },
+  {
+    "name": "Microservices",
+    "level": "Beginer"
+  },
+  {
+    "name": "ReactJS",
+    "level": "Beginer"
   }
 ]
