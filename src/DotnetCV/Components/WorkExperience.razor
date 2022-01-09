@@ -1,21 +1,21 @@
-<div id="workExperience">
-    <h3>WorkExperience</h3>
+<section id="workExperience">
+    <h4>Work Experience</h4>
     @foreach (var job in _jobs)
     {
         <div>
             <div class="jobHeading">
-                <h4>@job.Position</h4>
-                <h5>@job.Company</h5>
+                
+                <h5>@job.Position at @job.Company</h5>
                 <div class="jobDate">
                     <p>@job.GetTimeStamp()</p>
                 </div>
             </div>
             @if (!string.IsNullOrEmpty(job.Description))
             {
-                <div class="jobDescription">
+                <div class="description">
                     <p>@job.Description</p>
                 </div>
             }
         </div>
     }
-</div>
+</section>

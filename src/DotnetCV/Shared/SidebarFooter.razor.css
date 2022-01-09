@@ -1,0 +1,16 @@
+
+.footerLink {
+    display: flex;
+    position: sticky;
+    top: 2000px;
+}
+
+.link
+{
+    background-color: var(--richBlack);
+    text-align: center;
+    color: var(--babyPowder);
+    text-decoration: none;
+    width: 100%;
+    padding: 4px;
+}

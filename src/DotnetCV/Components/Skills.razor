@@ -1,13 +1,15 @@
-<div id="skills">
-    <h5>Skills</h5>
+<section id="skills">
+    <h5>
+        <mark>Skills</mark>
+    </h5>
     @if (_isLoaded)
     {
-        @foreach (var skill in _skills)
+        @foreach (var (name, level) in _skills)
         {
             <div class="row skill">
-                <div class="col-lg-7">@skill.Name</div>
-                <div class="col-lg-5">@skill.Level</div>
+                <div class="col-lg-7">@name</div>
+                <div class="col-lg-5">@level</div>
             </div>
         }
     }
-</div>
+</section>

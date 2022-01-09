@@ -1,9 +1,11 @@
-<div class="personalInformation">
+<section id="personalInformation">
+<img id="profilePhoto" src="data/profilePhoto.jpg" alt="Profile Photo" width="@_imgSize" height="@_imgSize"/>
     @if (_isLoaded)
     {
-        <h2>@_me.FirstName @_me.LastName</h2>
-        <h3>@_me.Position</h3>
-        <h4>@_me.Phone</h4>
-        <h4>@_me.Email</h4>
+        
+        <h4>@_me.FirstName @_me.LastName</h4>
+        <h6>@_me.Position</h6>
+        <h6>@_me.Phone</h6>
+        <h6><address>@_me.Email</address></h6>
     }
-</div>
+</section>

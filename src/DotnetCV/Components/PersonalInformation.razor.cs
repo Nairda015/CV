@@ -10,6 +10,7 @@ public partial class PersonalInformation
     [Inject] protected HttpClient HttpClient { get; set; }
     private Me _me;
     private bool _isLoaded;
+    private int _imgSize = 200;
     
     protected override async Task OnInitializedAsync()
     {

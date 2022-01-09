@@ -1,21 +1,20 @@
-<div id="education">
-    <h3>Education</h3>
+<section id="education">
+    <h4>Education</h4>
     @foreach (var school in _education)
     {
         <div>
             <div class="schoolHeading">
-                <h4>@school.Name</h4>
-                <h5>@school.Degree</h5>
+                <h5>@school.Degree at @school.Name</h5>
                 <div class="schoolDate">
                     <p>@school.GetTimeStamp()</p>
                 </div>
             </div>
             @if (!string.IsNullOrEmpty(school.Description))
             {
-                <div class="schoolDescription">
+                <div class="description">
                     <p>@school.Description</p>
                 </div>
             }
         </div>
     }
-</div>
+</section>
