@@ -2,11 +2,11 @@
     <h4>Education</h4>
     @foreach (var school in _education)
     {
-        <div>
+        <div class="school">
             <div class="schoolHeading">
                 <h5>@school.Degree at @school.Name</h5>
                 <div class="schoolDate">
-                    <p>@school.GetTimeStamp()</p>
+                    <small>@school.GetTimeStamp()</small>
                 </div>
             </div>
             @if (!string.IsNullOrEmpty(school.Description))

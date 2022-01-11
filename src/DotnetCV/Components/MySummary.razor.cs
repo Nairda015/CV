@@ -7,5 +7,4 @@ public partial class MySummary
         "Always ready for learning new technologies.",
         "Currently interested in distributed systems and project architecture."
     };
-
 }

@@ -7,9 +7,9 @@
 
 .link
 {
-    background-color: var(--richBlack);
+    background-color: var(--myBlack);
     text-align: center;
-    color: var(--babyPowder);
+    color: var(--myWhite);
     text-decoration: none;
     width: 100%;
     padding: 4px;
