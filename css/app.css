@@ -2,27 +2,25 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: var(--myWhite);
+    height: 100%;
+    background-color: var(--myShadow);
 }
 
 #left {
     background-image: var(--backgroundGradient);
     padding-left: 30px;
-    color : var(--babyPowder);
+    color : var(--myWhite);
 }
 
 #right {
-    background-color: var(--babyPowder);
+    background-color: var(--myWhite);
     right: 30px;
+    color: var(--myShadow);
 }
 
 .description {
     margin-left: 10px;
-}
-
-.links {
-    background-color: var(--richBlack);
-    text-align: center;
-    color: var(--babyPowder);
 }
 
 #profilePhoto
@@ -31,10 +29,8 @@ html, body {
 }
 
 main {
-    background-color: var(--shadow);
-    min-height: 100vh;
+    background-color: var(--myShadow);
     align-items: center;
-    display: flex;
 }
 
 #skills, #languages, #personalInformation
@@ -57,35 +53,29 @@ main {
     margin: 0;
 }
 
+.job, school {
+    margin-bottom: 10px;
+}
+
+.jobHeading h5, .schoolHeading h5
+{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
 
 /*Colors*/
 :root {
-    /* CSS HEX */
-    --richBlack: #090907ff;
-    --smokyBlack: #11110eff;
-    --shadow: #83785cff;
-    --mainColor: #e3ca8cff;
-    --babyPowder: #fdfbf7ff;
+    --myBlack: #000814;
+    --myShadow: #001D3D;
+    --myMain: #003566;
+    --myDetaild: #FFD60A;
+    --myDetaildShadow: #FFC300;
+    --myWhite: #f7fcfd;
 
-    /* CSS HSL 
-    --rich-black-fogra-39: hsla(60, 13%, 3%, 1);
-    --smoky-black: hsla(60, 10%, 6%, 1);
-    --shadow: hsla(43, 17%, 44%, 1);
-    --gold-crayola: hsla(43, 61%, 72%, 1);
-    --baby-powder: hsla(40, 60%, 98%, 1);
-    */
-    /* SCSS Gradient */
-    --backgroundGradient: linear-gradient(180deg, var(--shadow) 0%, var(--mainColor) 30%,var(--mainColor) 60%, var(--shadow) 100%);
-    --sidebarGradient: linear-gradient(180deg, var(--richBlack) 0%, var(--shadow) 30%,var(--mainColor) 60%);
-    
-    --gradient-top: linear-gradient(0deg, #090907ff, #11110eff, #83785cff, #e3ca8cff, #fdfbf7ff);
-    --gradient-right: linear-gradient(90deg, #090907ff, #11110eff, #83785cff, #e3ca8cff, #fdfbf7ff);
-    --gradient-bottom: linear-gradient(180deg, #090907ff, #11110eff, #83785cff, #e3ca8cff, #fdfbf7ff);
-    --gradient-left: linear-gradient(270deg, #090907ff, #11110eff, #83785cff, #e3ca8cff, #fdfbf7ff);
-    --gradient-top-right: linear-gradient(45deg, #090907ff, #11110eff, #83785cff, #e3ca8cff, #fdfbf7ff);
-    --gradient-bottom-right: linear-gradient(135deg, #090907ff, #11110eff, #83785cff, #e3ca8cff, #fdfbf7ff);
-    --gradient-top-left: linear-gradient(225deg, #090907ff, #11110eff, #83785cff, #e3ca8cff, #fdfbf7ff);
-    --gradient-bottom-left: linear-gradient(315deg, #090907ff, #11110eff, #83785cff, #e3ca8cff, #fdfbf7ff);
+    --backgroundGradient: linear-gradient(180deg, var(--myShadow) 0%, var(--myMain) 30%,var(--myMain) 60%, var(--myShadow) 100%);
+    --sidebarGradient: linear-gradient(180deg, var(--myBlack) 0%, var(--myShadow) 30%,var(--myMain) 60%);
+
     --gradient-radial: radial-gradient(#090907ff, #11110eff, #83785cff, #e3ca8cff, #fdfbf7ff);
 }
 /*Template*/

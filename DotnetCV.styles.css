@@ -10,7 +10,7 @@ main[b-xu8pbo8ejq] {
 }
 
 .sidebar[b-xu8pbo8ejq] {
-    background-image: var(--backgroundGradient);
+    background-image: var(--sidebarGradient);
 }
 
 .top-row[b-xu8pbo8ejq] {
@@ -37,7 +37,7 @@ main[b-xu8pbo8ejq] {
         text-overflow: ellipsis;
     }
 
-@media (max-width: 640.98px) {
+@media (max-width: 640px) {
     .top-row:not(.auth)[b-xu8pbo8ejq] {
         display: none;
     }
@@ -133,7 +133,7 @@ main[b-xu8pbo8ejq] {
     color: white;
 }
 
-@media (min-width: 641px) {
+@media (min-width: 992px) {
     .navbar-toggler[b-7f5wtkereu] {
         display: none;
     }
@@ -153,9 +153,9 @@ main[b-xu8pbo8ejq] {
 
 .link[b-waa9hl74po]
 {
-    background-color: var(--richBlack);
+    background-color: var(--myBlack);
     text-align: center;
-    color: var(--babyPowder);
+    color: var(--myWhite);
     text-decoration: none;
     width: 100%;
     padding: 4px;
